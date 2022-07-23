@@ -145,7 +145,7 @@ st.markdown('''
 -	Documented resources management to maintain operation and control.
 ''')
 
-txt2_41('**9c Studio, Richmond, TX** *(Cinematography Freelance)*','2017 - presnet')
+txt2_41('**9c Studio, Richmond, TX** *(Cinematography Freelance)*','2017 - present')
 st.markdown('''
 - Building a freelance business on customized fine art storytelling wedding videos from cinematic visual elements: lighting, camera setup, color, edit.
 ''')
