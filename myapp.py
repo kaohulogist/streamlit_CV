@@ -169,4 +169,4 @@ st.markdown('''
 ''')
 txt2_14('LinkedIn', 'www.linkedin.com/in/khoa-vd-huynh')
 txt2_14('GitHub', 'https://github.com/kaohulogist')
-txt2_14('Website', 'www.kaohulogist.com')
+txt2_14('Online CV', 'https://kaohulogist-streamlit-cv-myapp-y1dxyt.streamlitapp.com/')
