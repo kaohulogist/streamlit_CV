@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import requests
 from streamlit_lottie import st_lottie
+from streamlit_lottie import st_lottie_spinner
 
 # https://www.webfx.com/tools/emoji-cheat-sheet/
 st. set_page_config(page_title="Digital CV", page_icon=":coffee:")
@@ -11,6 +12,10 @@ def load_lottie_url(url):
   if r.status_code !=200:
     return None
   return r.json()
+
+def load_lottiefile(filepath: str):
+    with open(filepath, "r") as f:
+        return json.load(f)
 
 
 # ---- LOAD ASSETS ----
