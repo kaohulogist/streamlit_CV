@@ -1,8 +1,8 @@
 import streamlit as st
 from PIL import Image
 import requests
-from streamlit_lottie import st_lottie
-from streamlit_lottie import st_lottie_spinner
+#from streamlit_lottie import st_lottie
+#from streamlit_lottie import st_lottie_spinner
 
 # https://www.webfx.com/tools/emoji-cheat-sheet/
 st. set_page_config(page_title="Digital CV", page_icon=":coffee:")
@@ -19,7 +19,7 @@ def load_lottiefile(filepath: str):
 
 
 # ---- LOAD ASSETS ----
-lottie_coding = load_lottie_url("https://assets5.lottiefiles.com/packages/lf20_ndj9fzcd.json")
+#lottie_coding = load_lottie_url("https://assets5.lottiefiles.com/packages/lf20_ndj9fzcd.json")
 # pip install requests
 # pip install streamlit-lottie
 
@@ -45,7 +45,8 @@ with st.container():
     A fast and attentive learner candidate who enjoys being part of a team to support the development of engineering projects.
     ''')
   with right:
-    st_lottie(lottie_coding, height=150, key="spaceman")
+    pass
+  #st_lottie(lottie_coding, height=150, key="spaceman")
 
 #####################
 # Navigation
