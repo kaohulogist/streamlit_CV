@@ -1,5 +1,22 @@
 import streamlit as st
 from PIL import Image
+import requests
+from streamlit_lottie import st_lottie
+
+# https://www.webfx.com/tools/emoji-cheat-sheet/
+st. set_page_config(page_title="Digital CV", page_icon=":coffee:")
+
+def load_lottie_url(url):
+  r = requests.get(url)
+  if r.status_code !=200:
+    return None
+  return r.json()
+
+
+# ---- LOAD ASSETS ----
+lottie_coding = load_lottie_url("https://assets5.lottiefiles.com/packages/lf20_ndj9fzcd.json")
+# pip install requests
+# pip install streamlit-lottie
 
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
@@ -15,18 +32,23 @@ image = Image.open('KH.png')
 st.image(image, width=200)
 
 st.markdown('## Sumary', unsafe_allow_html=True)
-st.info('''
-Dedicated Electrical Engineer recent graduate with project experience in design and development of the system.
-A fast and attentive learner candidate who enjoys being part of a team to support the development of engineering projects.
-''')
+with st.container():
+  left, right = st.columns([4,1])
+  with left:    
+    st.info('''
+    Dedicated Electrical Engineer recent graduate with project experience in design and development of the system.
+    A fast and attentive learner candidate who enjoys being part of a team to support the development of engineering projects.
+    ''')
+  with right:
+    st_lottie(lottie_coding, height=150, key="spaceman")
 
-#######
+#####################
 # Navigation
 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
 st.markdown("""
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: MediumSeaGreen;">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: Gray;">
   <a class="navbar-brand" href="/" target="_blank">Khoa V.D Huynh</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -43,20 +65,20 @@ st.markdown("""
         <a class="nav-link" href="#work-experience">Work Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#data-science">Data Science</a>
+        <a class="nav-link" href="#project">Project</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#ee">IIot | PLC | HMI | SCADA</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#web-dev">Web Dev</a>
+        <a class="nav-link" href="#social-media">Social Media</a>
       </li>
     </ul>
   </div>
 </nav>
 """, unsafe_allow_html=True)
 
-#######
+#####################
 # Custom function for printing text
 def txt2_51(a,b):
     col1, col2 = st.columns([5,1])
@@ -86,7 +108,19 @@ def txt2_12(a,b):
     with col2:
         st.markdown(b)
 
-#######
+def txt4_1311(a,b,c,d):
+  left, mid1, mid2, right = st.columns([1,3,1,1])
+  with left:
+    st.markdown(a)
+  with mid1:
+    st.markdown(b)
+  with mid2:
+    st.markdown(c)
+  with right:
+    st.markdown(d)
+  
+
+#####################
 st.markdown('''
 ## Education
 ''')
@@ -150,16 +184,23 @@ st.markdown('''
 - Building a freelance business on customized fine art storytelling wedding videos from cinematic visual elements: lighting, camera setup, color, edit.
 ''')
 
+
+#####################
+st.markdown('''
+## Project:
+''')
+txt4_1311('*S&P 500 Stock Price*', 'blab blab blab', '[GitHub repo](www.google.com)', '[`WEB DEMO`](www.dealnews.com)')
+
 #####################
 st.markdown('''
 ## Skills:
 ''')
-txt2_12('Programming', '`Python`, `Go`,`C++`, `Matlab`, `LabVIEW`')
-txt2_12('System Integration | Embedded', '`PLC`, `SCADA`,`IIot`')
-txt2_12('Data Processing | Visualization', '`SQL`, `pandas`, `numpy`, `matplotlib`, `seaborn`')
+txt2_12('Programming', '`Python` `Go` `C++` `Matlab` `LabVIEW`')
+txt2_12('System Integration | Embedded', '`PLC` `SCADA` `IIot`')
+txt2_12('Data Processing | Visualization', '`SQL` `pandas` `numpy` `matplotlib` `seaborn`')
 #txt2_12('Penetration Testing | Cyber Security', '`Kali Linux`, `CompTIA Security+`')
-txt2_12('Machine Learning | Deep Learning' , '`scikit-learn`, `keras`, `TensorFlow`')
-txt2_12('Web Development | Deployment', '`HTML`, `CSS`, `Markdown`, `streamlit`,`Heroku`')
+txt2_12('Machine Learning | Deep Learning' , '`scikit-learn` `keras` `TensorFlow`')
+txt2_12('Web Development | Deployment', '`HTML` `CSS` `Markdown` `streamlit` `Heroku`')
 
 
 
