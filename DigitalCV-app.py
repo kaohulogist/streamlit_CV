@@ -5,7 +5,7 @@ from streamlit_lottie import st_lottie
 #from streamlit_lottie import st_lottie_spinner
 
 # https://www.webfx.com/tools/emoji-cheat-sheet/
-st. set_page_config(page_title="Digital CV", page_icon=":coffee:")
+st.set_page_config(page_title="Digital CV", page_icon=":coffee:")
 
 def load_lottie_url(url):
   r = requests.get(url)
@@ -36,6 +36,7 @@ image = Image.open('KH.png')
 st.image(image, width=200)
 
 st.markdown('## Sumary', unsafe_allow_html=True)
+
 with st.container():
   left, right = st.columns([4,1])
   with left:    
@@ -44,8 +45,7 @@ with st.container():
     A fast and attentive learner candidate who enjoys being part of a team to support the development of engineering projects.
     ''')
   with right:
-    pass
-  st_lottie(lottie_coding, height=150, key="spaceman")
+    st_lottie(lottie_coding, height=150, key="spaceman")
 
 #####################
 # Navigation
