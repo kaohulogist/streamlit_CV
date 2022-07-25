@@ -19,9 +19,8 @@ def load_lottiefile(filepath: str):
 
 
 # ---- LOAD ASSETS ----
-#lottie_coding = load_lottie_url("https://assets5.lottiefiles.com/packages/lf20_ndj9fzcd.json")
-# pip install requests
-# pip install streamlit-lottie
+lottie_coding = load_lottie_url("https://assets5.lottiefiles.com/packages/lf20_ndj9fzcd.json")
+
 
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
@@ -46,7 +45,7 @@ with st.container():
     ''')
   with right:
     pass
-  #st_lottie(lottie_coding, height=150, key="spaceman")
+  st_lottie(lottie_coding, height=150, key="spaceman")
 
 #####################
 # Navigation
@@ -221,4 +220,4 @@ st.markdown('''
 ''')
 txt2_14('LinkedIn', 'www.linkedin.com/in/khoa-vd-huynh')
 txt2_14('GitHub', 'https://github.com/kaohulogist')
-txt2_14('Online CV', 'https://kaohulogist-streamlit-cv-myapp-y1dxyt.streamlitapp.com/')
+txt2_14('Online CV', 'https://kaohulogist-streamlit-cv-digitalcv-app-mr0gi1.streamlitapp.com/')
