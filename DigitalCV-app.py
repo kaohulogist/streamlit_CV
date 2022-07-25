@@ -195,7 +195,12 @@ st.markdown('''
 st.markdown('''
 ## Project:
 ''')
-txt4_1311('*S&P 500 Stock Price*', 'blab blab blab', '[GitHub repo](www.google.com)', '[`WEB DEMO`](www.dealnews.com)')
+txt4_1311('*S&P 500 Stock Price*',
+ 'A data-driven web application in Python for webscraping S&P500 stock prices and plotting the Closing Price year-to-date. Featuring customzied function on single input ticker plotting and listing tickers from favorite sectors.',
+  '[GitHub repo](https://github.com/kaohulogist/sp500-WebApp)'
+  , '[`WEB DEMO`](https://kaohulogist-sp500-webapp-sp500-app-ks8y61.streamlitapp.com/)')
+
+
 
 #####################
 st.markdown('''
