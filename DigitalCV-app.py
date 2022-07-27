@@ -194,10 +194,18 @@ st.markdown('''
 st.markdown('''
 ## Project:
 ''')
-txt4_1311('*S&P 500 Stock Price*',
- 'A data-driven web application in Python for webscraping S&P500 stock prices and plotting the Closing Price year-to-date. Featuring customzied function on single input ticker plotting and listing tickers from favorite sectors.',
-  '[GitHub repo](https://github.com/kaohulogist/sp500-WebApp)'
-  , '[`WEB DEMO`](https://kaohulogist-sp500-webapp-sp500-app-ks8y61.streamlitapp.com/)')
+txt4_1311('*S&P 500 Stock Price*'
+,'A data-driven web application in Python for webscraping S&P500 stock prices and plotting the Closing Price year-to-date. Featuring customzied function on single input ticker plotting and listing tickers from favorite sectors.'
+,'[GitHub repo](https://github.com/kaohulogist/sp500-WebApp)'
+,'[`WEB DEMO`](https://kaohulogist-sp500-webapp-sp500-app-ks8y61.streamlitapp.com/)')
+txt4_1311('*S&P 500 Stock Price*'
+,'A data-driven web application in Python for webscraping S&P500 stock prices and plotting the Closing Price year-to-date. Featuring customzied function on single input ticker plotting and listing tickers from favorite sectors.'
+,'[GitHub repo](https://github.com/kaohulogist/sp500-WebApp)'
+,'[`WEB DEMO`](https://kaohulogist-sp500-webapp-sp500-app-ks8y61.streamlitapp.com/)')
+txt4_1311('*S&P 500 Stock Price*'
+,'A data-driven web application in Python for webscraping S&P500 stock prices and plotting the Closing Price year-to-date. Featuring customzied function on single input ticker plotting and listing tickers from favorite sectors.'
+,'[GitHub repo](https://github.com/kaohulogist/sp500-WebApp)'
+,'[`WEB DEMO`](https://kaohulogist-sp500-webapp-sp500-app-ks8y61.streamlitapp.com/)')
 
 
 
@@ -207,7 +215,7 @@ st.markdown('''
 ''')
 txt2_12('Programming', '`Python` `Go` `C++` `Matlab` `LabVIEW`')
 txt2_12('System Integration | Embedded', '`PLC` `SCADA` `IIot`')
-txt2_12('Data Processing | Visualization', '`SQL` `pandas` `numpy` `matplotlib` `seaborn`')
+txt2_12('Data Processing | Visualization', '`SQL` `pandas` `numpy` `selenium``matplotlib` `seaborn`')
 #txt2_12('Penetration Testing | Cyber Security', '`Kali Linux`, `CompTIA Security+`')
 txt2_12('Machine Learning | Deep Learning' , '`scikit-learn` `keras` `TensorFlow`')
 txt2_12('Web Development | Deployment', '`HTML` `CSS` `Markdown` `streamlit` `Heroku`')
@@ -221,3 +229,4 @@ st.markdown('''
 txt2_14('LinkedIn', 'www.linkedin.com/in/khoa-vd-huynh')
 txt2_14('GitHub', 'https://github.com/kaohulogist')
 txt2_14('Online CV', 'https://kaohulogist-streamlit-cv-digitalcv-app-mr0gi1.streamlitapp.com/')
+txt2_14('Youtube Channel', 'https://www.youtube.com/channel/UCGk07fzGvNMkHhd2BynaFZA/videos')
