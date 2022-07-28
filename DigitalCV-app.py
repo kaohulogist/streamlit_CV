@@ -198,15 +198,10 @@ txt4_1311('*S&P 500 Stock Price*'
 ,'A data-driven web application in Python for webscraping S&P500 stock prices and plotting the Closing Price year-to-date. Featuring customzied function on single input ticker plotting and listing tickers from favorite sectors.'
 ,'[GitHub repo](https://github.com/kaohulogist/sp500-WebApp)'
 ,'[`WEB DEMO`](https://kaohulogist-sp500-webapp-sp500-app-ks8y61.streamlitapp.com/)')
-txt4_1311('*S&P 500 Stock Price*'
-,'A data-driven web application in Python for webscraping S&P500 stock prices and plotting the Closing Price year-to-date. Featuring customzied function on single input ticker plotting and listing tickers from favorite sectors.'
-,'[GitHub repo](https://github.com/kaohulogist/sp500-WebApp)'
-,'[`WEB DEMO`](https://kaohulogist-sp500-webapp-sp500-app-ks8y61.streamlitapp.com/)')
-txt4_1311('*S&P 500 Stock Price*'
-,'A data-driven web application in Python for webscraping S&P500 stock prices and plotting the Closing Price year-to-date. Featuring customzied function on single input ticker plotting and listing tickers from favorite sectors.'
-,'[GitHub repo](https://github.com/kaohulogist/sp500-WebApp)'
-,'[`WEB DEMO`](https://kaohulogist-sp500-webapp-sp500-app-ks8y61.streamlitapp.com/)')
-
+txt4_1311('*Timer*'
+,'A web application ultilizes Pomodoro technique to stay productive. It features a defaut of 25 minutes dedicated work and 5 minutes break after. Users allow to customize the Pomodoro timer and break time. A built-in animation and sound effect will be played at the end!!!'
+,'[GitHub repo](https://github.com/kaohulogist/st_timer.git)'
+,'[`WEB-APP DEMO`](https://kaohulogist-st-timer-timer-app-3uopia.streamlitapp.com/)')
 
 
 #####################
