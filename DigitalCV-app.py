@@ -166,7 +166,6 @@ st.markdown('''
 -	Generated AutoCAD 3D modeling and applied 3D printing to complete prototype.
 -	Achieved a highly reliable product with better than 90% success for each interchangeable swapping run.
 -	Experienced with electrical testing equipment voltmeters, oscilloscopes, power supply, soldering, and silicone seal for technical troubleshooting and designing an electric control system.
--	Won top 7 NASA TSGC design award.
 ''')
 
 txt2_41('**U.S. Department of Commerce, Katy, TX** *(IT Support)*','05/2020 - 11/2020')
@@ -174,19 +173,26 @@ st.markdown('''
 -	Provided technical assistance to users via Citrix Workspace, Remedy, and Information Admission tools.
 -	Coordinated with each manager of a group of 25 persons to install remote updates to prevent service disruption and resolve technical issues.
 -	Applied information security to monitor account credentials.
+- Recorded tickets issue to evaluate the issues for escalation to a higher level.
 -	Performed work with a proficiency level in MS Office, Outlook, PowerPoint, OneNote, Word, Excel, and Outlook. 
 ''')
 
 txt2_41('**US Jaclean, Stafford, TX** *(Manager)*','05/2016 – 09/2019')
 st.markdown('''
--	Managed the Houston brand office to generate revenue from vending, retail, wholesale, and delivery.
+-	Managed the Houston brand office’s day-to-day operations in vending, retail, wholesale, and delivery.
 -	Organized teams to meet deadlines, and distribute products from warehouse to stores. Validated non-working massage chair units for replacements or repairs for hardware and software. 
--	Documented resources management to maintain operation and control.
+-	Documented resources management to record, update, and document to regional manager.
+-	Controlled and distributed warehouse duties including operating fork lifts, power, and hand tools within occupational hazards and safety precautions.
+-	Performed problem solving and troubleshooting in electrical and mechanical building maintenance.
+
 ''')
 
-txt2_41('**9c Studio, Richmond, TX** *(Cinematography Freelance)*','2017 - present')
+txt2_41('**9c Studio, Planet Earth** *(Cinematography Freelance)*','2017 - present')
 st.markdown('''
 - Building a freelance business on customized fine art storytelling wedding videos from cinematic visual elements: lighting, camera setup, color, edit.
+- Prioritized responsibility for the integrity of locations with flexible hours available to clients.
+- Organized securely audio and video equipment inventory after every event.
+-	Experienced to set up, operate and tear down of audio and video equipment in live events.
 ''')
 
 
